@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sienar.Templates", "Sienar.Templates", "{9E1658E6-4678-45F3-9AEE-794BBE3B8819}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "content", "content", "{E5B03DE2-EF50-4D52-9236-F3EA1F40E002}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SienarWeb", "SienarWeb", "{019B91FC-F8B0-4DCF-834B-E618C2A2EC23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SienarWeb", "Sienar.Templates\content\SienarWeb\SienarWeb\SienarWeb.csproj", "{FCD00B48-78E3-4448-9995-10A749BA9C03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCD00B48-78E3-4448-9995-10A749BA9C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD00B48-78E3-4448-9995-10A749BA9C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD00B48-78E3-4448-9995-10A749BA9C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD00B48-78E3-4448-9995-10A749BA9C03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5B03DE2-EF50-4D52-9236-F3EA1F40E002} = {9E1658E6-4678-45F3-9AEE-794BBE3B8819}
+		{019B91FC-F8B0-4DCF-834B-E618C2A2EC23} = {E5B03DE2-EF50-4D52-9236-F3EA1F40E002}
+		{FCD00B48-78E3-4448-9995-10A749BA9C03} = {019B91FC-F8B0-4DCF-834B-E618C2A2EC23}
+	EndGlobalSection
+EndGlobal
